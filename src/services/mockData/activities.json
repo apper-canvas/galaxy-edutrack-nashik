@@ -1,0 +1,85 @@
+[
+  {
+    "Id": 1,
+    "activityId": "ACT001",
+    "name": "Science Exhibition",
+    "date": "2024-03-15",
+    "departmentId": "1",
+    "description": "Annual science exhibition showcasing student projects and experiments across all science subjects.",
+    "participants": [
+      {"type": "student", "id": "1"},
+      {"type": "student", "id": "4"},
+      {"type": "teacher", "id": "1"},
+      {"type": "teacher", "id": "5"}
+    ],
+    "status": "Planned",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "activityId": "ACT002",
+    "name": "Business Plan Competition",
+    "date": "2024-02-28",
+    "departmentId": "2",
+    "description": "Inter-class competition for students to present innovative business ideas and entrepreneurship projects.",
+    "participants": [
+      {"type": "student", "id": "2"},
+      {"type": "student", "id": "5"},
+      {"type": "teacher", "id": "2"},
+      {"type": "teacher", "id": "6"}
+    ],
+    "status": "Ongoing",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "activityId": "ACT003",
+    "name": "Cultural Festival",
+    "date": "2024-01-20",
+    "departmentId": "3",
+    "description": "Annual cultural festival featuring drama, music, dance, and art performances by students.",
+    "participants": [
+      {"type": "student", "id": "3"},
+      {"type": "student", "id": "6"},
+      {"type": "teacher", "id": "3"}
+    ],
+    "status": "Completed",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 4,
+    "activityId": "ACT004",
+    "name": "Coding Bootcamp",
+    "date": "2024-04-10",
+    "departmentId": "4",
+    "description": "Intensive coding workshop covering modern programming languages and development frameworks.",
+    "participants": [
+      {"type": "student", "id": "7"},
+      {"type": "student", "id": "8"},
+      {"type": "teacher", "id": "4"}
+    ],
+    "status": "Planned",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 5,
+    "activityId": "ACT005",
+    "name": "Sports Day",
+    "date": "2024-02-14",
+    "departmentId": "1",
+    "description": "Annual sports day with track and field events, team sports, and athletic competitions.",
+    "participants": [
+      {"type": "student", "id": "1"},
+      {"type": "student", "id": "2"},
+      {"type": "student", "id": "3"},
+      {"type": "student", "id": "4"}
+    ],
+    "status": "Ongoing",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  }
+]

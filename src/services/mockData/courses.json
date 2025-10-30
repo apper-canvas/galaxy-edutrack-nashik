@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 1,
+    "courseId": "CRS001",
+    "name": "Advanced Physics",
+    "departmentId": "1",
+    "description": "Comprehensive physics course covering mechanics, thermodynamics, and quantum physics fundamentals.",
+    "creditHours": 4,
+    "assignedTeacherId": "1",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "courseId": "CRS002",
+    "name": "Financial Accounting",
+    "departmentId": "2",
+    "description": "Introduction to accounting principles, financial statements, and bookkeeping practices for business management.",
+    "creditHours": 3,
+    "assignedTeacherId": "2",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "courseId": "CRS003",
+    "name": "Modern Indian History",
+    "departmentId": "3",
+    "description": "Study of Indian history from the medieval period to independence and post-independence developments.",
+    "creditHours": 3,
+    "assignedTeacherId": "3",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 4,
+    "courseId": "CRS004",
+    "name": "Java Programming",
+    "departmentId": "4",
+    "description": "Object-oriented programming with Java, including data structures, algorithms, and software development practices.",
+    "creditHours": 4,
+    "assignedTeacherId": "4",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 5,
+    "courseId": "CRS005",
+    "name": "Organic Chemistry",
+    "departmentId": "1",
+    "description": "Advanced chemistry focusing on organic compounds, reactions, and molecular structures.",
+    "creditHours": 4,
+    "assignedTeacherId": "5",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 6,
+    "courseId": "CRS006",
+    "name": "Business Economics",
+    "departmentId": "2",
+    "description": "Economic principles applied to business decision-making, market analysis, and financial planning.",
+    "creditHours": 3,
+    "assignedTeacherId": "6",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  }
+]

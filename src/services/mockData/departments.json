@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "departmentId": "DEPT001",
+    "name": "Science",
+    "headOfDepartment": "Dr. Rajesh Kulkarni",
+    "description": "Department of Science offering Physics, Chemistry, Mathematics, and Biology courses for students pursuing scientific education.",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "departmentId": "DEPT002",
+    "name": "Commerce",
+    "headOfDepartment": "Prof. Sunita Sharma",
+    "description": "Department of Commerce providing comprehensive business education including Accounting, Economics, and Business Studies.",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "departmentId": "DEPT003",
+    "name": "Arts",
+    "headOfDepartment": "Mr. Amit Jain",
+    "description": "Department of Arts focusing on humanities subjects including History, Political Science, Geography, and Languages.",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 4,
+    "departmentId": "DEPT004",
+    "name": "Computer Science",
+    "headOfDepartment": "Ms. Priya Reddy",
+    "description": "Department of Computer Science offering modern programming languages, software development, and technology courses.",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  }
+]
