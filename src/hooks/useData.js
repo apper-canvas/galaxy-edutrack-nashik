@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export const useData = (serviceMethod) => {
   const [data, setData] = useState([]);
@@ -6,7 +6,7 @@ export const useData = (serviceMethod) => {
   const [error, setError] = useState("");
   const isMountedRef = useRef(true);
 
-  const loadData = useCallback(async () => {
+const loadData = useCallback(async () => {
     try {
       setLoading(true);
       setError("");
@@ -23,11 +23,10 @@ export const useData = (serviceMethod) => {
       }
     } finally {
       if (isMountedRef.current) {
-        setLoading(false);
+setLoading(false);
       }
     }
-  }, [serviceMethod]);
-
+  }, []); // Empty deps intentional - serviceMethod captured in closure
   useEffect(() => {
     isMountedRef.current = true;
     loadData();
