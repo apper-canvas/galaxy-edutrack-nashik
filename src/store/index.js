@@ -8,8 +8,9 @@ import { configureStore } from "@reduxjs/toolkit";
  */
 export const store = configureStore({
   reducer: {
-    // Add reducers here as slices are created
-    // Example: user: userReducer,
+    // Placeholder reducer to prevent empty reducer error
+    // Replace with actual slices as they are created
+    app: (state = { initialized: true }) => state,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
