@@ -2,9 +2,10 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/utils/cn";
 import ApperIcon from "@/components/ApperIcon";
-
+import { useAuth } from "@/layouts/Root";
 const Sidebar = ({ isOpen, onClose }) => {
   const location = useLocation();
+  const { logout } = useAuth();
 
   const navigation = [
     { name: "Dashboard", href: "/", icon: "LayoutDashboard" },
@@ -51,6 +52,15 @@ const Sidebar = ({ isOpen, onClose }) => {
             );
           })}
         </nav>
+        <div className="px-2 mt-auto">
+          <button
+            onClick={logout}
+            className="w-full group flex items-center px-2 py-2 text-sm font-medium rounded-md text-primary-100 hover:bg-primary-600 hover:text-white transition-colors"
+          >
+            <ApperIcon name="LogOut" className="mr-3 flex-shrink-0 h-5 w-5 text-primary-300 group-hover:text-white" />
+            Logout
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -120,6 +130,18 @@ const Sidebar = ({ isOpen, onClose }) => {
               );
             })}
           </nav>
+          <div className="px-2 mt-auto">
+            <button
+              onClick={() => {
+                logout();
+                onClose();
+              }}
+              className="w-full group flex items-center px-2 py-2 text-sm font-medium rounded-md text-primary-100 hover:bg-primary-600 hover:text-white transition-colors"
+            >
+              <ApperIcon name="LogOut" className="mr-3 flex-shrink-0 h-5 w-5 text-primary-300 group-hover:text-white" />
+              Logout
+            </button>
+          </div>
         </div>
       </div>
     </>

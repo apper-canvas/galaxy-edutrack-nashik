@@ -1,0 +1,86 @@
+{
+  "/": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Dashboard is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  },
+  "/students": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Students page is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  },
+  "/teachers": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Teachers page is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  },
+  "/departments": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Departments page is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  },
+  "/curriculum": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Curriculum page is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  },
+  "/activities": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Activities page is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  },
+  "/*": {
+    "allow": {
+      "when": {
+        "conditions": [
+          {
+            "label": "Not found page is public",
+            "rule": "public"
+          }
+        ]
+      }
+    }
+  }
+}

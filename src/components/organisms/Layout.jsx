@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { Outlet } from "react-router-dom";
+import React from "react";
+import { Outlet, useOutletContext } from "react-router-dom";
 import Sidebar from "@/components/organisms/Sidebar";
 import Header from "@/components/organisms/Header";
-
 const Layout = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const { sidebarOpen, setSidebarOpen } = useOutletContext();
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -18,12 +17,11 @@ const Layout = () => {
         
         <main className="py-6">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Outlet />
+            <Outlet context={{ sidebarOpen, setSidebarOpen }} />
           </div>
         </main>
       </div>
     </div>
   );
 };
-
 export default Layout;

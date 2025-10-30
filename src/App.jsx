@@ -1,6 +1,6 @@
-import { RouterProvider } from "react-router-dom"
-import { ToastContainer } from "react-toastify"
-import { router } from "@/router"
+import { RouterProvider } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import { router } from "@/router";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         className="z-[9999]"
       />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -2,8 +2,10 @@ import React from "react";
 import { cn } from "@/utils/cn";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
-
+import { useAuth } from "@/layouts/Root";
 const Header = ({ onMenuClick, title = "Dashboard" }) => {
+  const { logout } = useAuth();
+
   return (
     <div className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,6 +25,10 @@ const Header = ({ onMenuClick, title = "Dashboard" }) => {
           <div className="flex items-center space-x-4">
             <Button variant="ghost" size="sm">
               <ApperIcon name="Bell" className="h-5 w-5" />
+            </Button>
+            
+            <Button variant="ghost" size="sm" onClick={logout}>
+              <ApperIcon name="LogOut" className="h-5 w-5" />
             </Button>
             
             <div className="flex items-center space-x-3">
